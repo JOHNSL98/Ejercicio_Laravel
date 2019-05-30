@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/leerview', function () {
+    return view('leer');
+});
+
+Route::get('/crearview', function () {
+    return view('crear');
+});
+
+Route::get('/actualizarview', function () {
+    return view('actualizar');
+});
+
+Route::get('/borrarview', function () {
+    return view('borrar');
+});
+
+Route::get('/prueba', function () {
+    return view('prueba');
+});
